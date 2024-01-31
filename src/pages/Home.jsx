@@ -1,5 +1,12 @@
 import React from "react";
+import SectionCatalog from "../components/SectionCatalog";
+import Layout from "../components/Layout";
+
 
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <Layout>
+      <SectionCatalog />
+    </Layout>
+  );
 }
